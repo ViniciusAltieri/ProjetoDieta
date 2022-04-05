@@ -20,16 +20,13 @@
                 <label for="feminino">Feminino</label>
         </div>
         <div id="idade">
-            <strong>Idade:</strong> 
-                <input type="number" name="idade" id="idade">
+            <label>Idade: <input type="number" name="idade" id="idade"></label> 
         </div>
         <div id="altura">
-            <strong>Altura:</strong>
-                <input type="number" placeholder="em CM (não use vírgulas)" name="altura" id="altura">
+            <label>Altura:<input type="number" placeholder="em CM (não use vírgulas)" name="altura" id="altura"></label>
         </div>
         <div id="peso">
-            <strong>Peso:</strong>
-                <input type="number" placeholder="em KG (não use vírgulas)" name="peso" id="peso">        
+            <label>Peso: <input type="number" placeholder="em KG (não use vírgulas)" name="peso" id="peso"></label>     
         </div>
         <div id="freqtreino">
             <strong>Frequência de treino:</strong>
@@ -42,10 +39,10 @@
             </select>
         </div>
         <div id="calcular">
-            <input type="button" value="Calcular" id="calcular">
-            
+            <button id="submit">Calcular</button>
+        <p id="res"></p>    
         </div>
     </section>
-    
+    <script src="formula.js"></script>
 </body>
 </html>
