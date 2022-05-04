@@ -54,7 +54,7 @@ function calcular(){
         button.style.opacity = '0.5'
 
         btn.addEventListener('click', function() {
-            location.href = "file:///home/vinicius/Downloads/index.html";
+            location.href = "file:///C:/Users/Aluno/Downloads/ProjetoDieta-4.0/tela2/tela2.html";
         })
 
         
